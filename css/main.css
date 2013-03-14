@@ -13,9 +13,9 @@ Generic Selectors
 
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	background-color: #FFFFFF;
-	text-align: center;
-	line-height: 
+	background-color: #FFF;
+	text-align: left;
+	line-height: 150%
 	width: 100%;		
 }
 
@@ -28,27 +28,25 @@ li {
 	line-height: 150%;
 }
 
-
 h1 {
 	font-family: 'Sintony', sans-serif;
 	font-size: 24px;
 	font-weight: normal;
-	color: #000000;
+	color: #000;
 }
 
-h2,h3 {
+h2 {
 	font-family: 'Sintony', sans-serif;
 	font-size: 22px;
 	font-weight: normal;
-	color: #000000;
+	color: #000;
+	text-shadow: 2px 2px 2px #666;
 }
 
 
 /*---------------------------------------------------------------------
 Classes
 -----------------------------------------------------------------------*/
-
-
 
 
 
