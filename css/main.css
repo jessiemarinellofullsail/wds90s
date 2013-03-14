@@ -1,7 +1,96 @@
 /*css for 90s-ness site*/
 
-/*color swatch ---------------------
+/*Color Swatch--------------------------------------------------------
 	black		#000000
 	text gray	#a0a0a0
 	pink		#ed145b
-------------------------------------*/
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+Generic Selectors
+----------------------------------------------------------------------*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100%;		
+}
+
+p {
+	width: 80%;
+}
+
+li {
+	list-style-type: none;
+	line-height: 150%;
+	list-style-image: url(../images/arrowSmall.gif);
+}
+
+
+h1 {
+	font-family: 'Electrolize', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+h2,h3 {
+	font-family: 'Electrolize', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+
+
+
+/*---------------------------------------------------------------------
+Classes
+-----------------------------------------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------------------------------
+Main Navigation
+----------------------------------------------------------------------*/
+
+a:link {
+	color: ;
+	text-decoration: ;
+	font-weight: ;
+}
+
+a:visited { 
+	color: 
+	text-decoration: ;
+	font-weight: ;
+}
+
+li :visited { 
+	color: ;
+	text-decoration: ;
+	font-weight: ;
+}
+
+a:hover {
+	color: );
+	text-decoration: ;
+	font-weight: ;
+}
+
+li:hover {
+	display: block;
+	color: ;
+	padding-bottom: ;
+	font-weight: ;
+	border-bottom-width: ;
+	border-bottom-style: ;
+	border-bottom-color: ;	
+}
+  
+a:active { 
+	color: ;
+	font-weight: ; 
+} 
