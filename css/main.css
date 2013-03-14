@@ -105,7 +105,7 @@ nav {
 
 nav li {
 	float: right;
-	margin-right: 3.6em;
+	margin-left: 3.6em;
 }
 
 nav a {
@@ -115,4 +115,25 @@ nav a {
 	border: none;
 	font-size: 1.2em;
 	text-align: center;
+}
+
+a:visited { 
+	color: #aaff00;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;	 
+}
+
+a:hover {
+	color: #ed145b;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;	 
+}
+
+a:active {
+	color: #FFAA00;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;
 }
