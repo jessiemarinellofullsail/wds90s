@@ -2,7 +2,117 @@
 
 /*Color Swatch--------------------------------------------------------
 	black		#000000
-	text gray	#a0a0a0
+	gray		#a0a0a0
 	pink		#ed145b
 	wow green	#aaff00
+	mauve gray	#646266
 ----------------------------------------------------------------------*/
+
+html {
+	background: #fff;
+}
+
+body {
+	font: 100% Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	background: #fff;
+	color: #a0a0a0;
+	font-weight:normal;
+	font-style:normal;
+}
+
+#mainNav {
+	display: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+/*element styles*/
+
+header {
+	height: 165px;
+}
+
+article {
+	float: left;
+	width: 850px;
+	padding-left: 50px;
+}
+
+aside {
+	float: right;
+	width: 280px;
+	padding-right: 50px;
+}
+
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: 150px;
+}
+
+/*header*/
+
+header {
+	background: #646266;
+	padding-top: 1px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+header h1 {
+	font-size: 3.0em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 100px;
+	line-height: 165px;
+	margin-right: .5em;
+	float: left;
+	padding-left: 110px;
+	background: url(../images/90_logo.jpg) no-repeat left center;
+	color: #fff;
+}
+
+header a, header a:hover {
+	color: #fff;
+	border: none;
+}
+
+/*nav*/
+
+nav {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+nav li {
+	float: right;
+	margin-right: 3.6em;
+}
+
+nav a {
+	text-transform: uppercase;
+	display: block;
+	color: #646266;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+}
