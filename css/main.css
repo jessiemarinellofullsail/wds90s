@@ -4,6 +4,7 @@
 	black		#000000
 	text gray	#a0a0a0
 	pink		#ed145b
+	wow green	#aaff00
 ----------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------
@@ -14,6 +15,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	background-color: #FFFFFF;
 	text-align: center;
+	line-height: 
 	width: 100%;		
 }
 
@@ -24,20 +26,19 @@ p {
 li {
 	list-style-type: none;
 	line-height: 150%;
-	list-style-image: url(../images/arrowSmall.gif);
 }
 
 
 h1 {
-	font-family: 'Electrolize', sans-serif;
-	font-size: 18px;
+	font-family: 'Sintony', sans-serif;
+	font-size: 24px;
 	font-weight: normal;
 	color: #000000;
 }
 
 h2,h3 {
-	font-family: 'Electrolize', sans-serif;
-	font-size: 16px;
+	font-family: 'Sintony', sans-serif;
+	font-size: 22px;
 	font-weight: normal;
 	color: #000000;
 }
@@ -59,40 +60,37 @@ Main Navigation
 	float: left;
 }
 
-#nav li a {
-	float:left;
+a:link {
+	float: left;
 	width: 80px;
 	height: 26px;
 	display: block;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-a:link {
-	color: ;
-	text-decoration: ;
-	font-weight: ;
+	color: #a0a0a0
 }
 
 a:visited { 
-	color: 
-	text-decoration: ;
-	font-weight: ;
-}
-
-li :visited { 
-	color: ;
-	text-decoration: ;
-	font-weight: ;
+	color: #aaff00;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;	 
 }
 
 a:hover {
-	color: );
-	text-decoration: ;
-	font-weight: ;
+	color: #ed145b;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;	 
 }
 
-li:hover {
+a:active {
+	color: #FFAA00;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: normal;
+}
+
 	display: block;
 	color: ;
 	padding-bottom: ;
