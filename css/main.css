@@ -220,3 +220,30 @@ article h2 {
 	text-indent: 33px
 }
 
+/*****************************footer styles***************************************/
+
+#pageFooter {
+	background: #646266;
+	padding-top: 1.5em;
+}
+
+#pageFooter label {
+	display: block;
+	font-size: 1.2em;
+}
+
+#pageFooter p {
+	float: left;
+	clear: right;
+	margin-left: 6;
+	text-align: right;
+}
+
+#pageFooter a {
+	display:block;
+	height: 100px;
+	line-height: 100px;
+	border: none;
+	color: #646266;
+	padding-left: 95px;
+}
