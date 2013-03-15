@@ -3,13 +3,17 @@
 /*Color Swatch--------------------------------------------------------
 	black		#000000
 	gray		#a0a0a0
+	lt gray		#c1cbcc
+	orange		#FFAA00
+	blue 		#00AAFF
 	pink		#ed145b
 	wow green	#aaff00
 	mauve gray	#646266
+	highlighter	#dcfd00
 ----------------------------------------------------------------------*/
 
 html {
-	background: #fff;
+	background: #dcfd00;
 }
 
 body {
@@ -43,7 +47,12 @@ body {
 	margin: 0 auto;
 }
 
-/*element styles*/
+/*********************element styles*****************************************/
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
 
 header {
 	height: 165px;
@@ -51,7 +60,7 @@ header {
 
 article {
 	float: left;
-	width: 850px;
+	width: 900px;
 	padding-left: 50px;
 }
 
@@ -62,12 +71,13 @@ aside {
 }
 
 #pageFooter {
+	text-indent: 2.5em;
 	clear:both;
 	overflow:hidden;
 	height: 150px;
 }
 
-/*header*/
+/*************************header*************************************************/
 
 header {
 	background: #646266;
@@ -78,7 +88,7 @@ header {
 }
 
 header h1 {
-	font-size: 3.0em;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 100px;
@@ -86,16 +96,26 @@ header h1 {
 	margin-right: .5em;
 	float: left;
 	padding-left: 110px;
-	background: url(../images/90_logo.jpg) no-repeat left center;
+	background: url(../_images/90_logo.jpg) no-repeat left center;
 	color: #fff;
 }
 
+header h2 {
+	font-style: italic;
+	font-weight:normal;
+	font-size: 1.4em;
+	color: #fff;
+	float: left;
+	text-transform: lowercase;
+	letter-spacing:.1em;
+	line-height: 165px;
+}
 header a, header a:hover {
 	color: #fff;
 	border: none;
 }
 
-/*nav*/
+/*******************************nav************************************************/
 
 nav {
 	overflow: hidden;
@@ -118,7 +138,7 @@ nav a {
 }
 
 a:visited { 
-	color: #aaff00;
+	color: #dcfd00;
 	text-decoration: none;
 	font-size: 26px;
 	font-weight: normal;	 
@@ -136,4 +156,51 @@ a:active {
 	text-decoration: none;
 	font-size: 26px;
 	font-weight: normal;
+}
+
+/************************************banner styles*******************************/
+
+.banner {
+	height: 350px;
+	padding-left: 50px;
+	overflow: hidden;
+	background: url(../images/bw_vhs.jpg) no-repeat;
+	margin-bottom: 4em;
+	position: relative;
+}
+
+.banner h1 {
+	font-size: 2.2em;
+	color: #ed145b;
+	padding-top: 250px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+
+.banner p {
+	width: 300px;
+	padding: 15px 15px 0;
+	height: 335px;
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/********************article styles***********************************************/
+
+article h2 {
+	font-family: 'Sintony', sans-serif;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #a0a0a0;
+	text-shadow: 2px 2px 2px #666;
+}
+
+#columnContent {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	padding: 10px;
+	clear: both;
 }
