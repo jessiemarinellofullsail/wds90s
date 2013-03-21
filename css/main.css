@@ -147,7 +147,7 @@ a:active {
 .banner h1 {
 	font-size: 2.2em;
 	color: #ed145b;
-	padding-top: 15.625em; /*250px*/;
+	padding-top: 250px /*since this is like a height should it be left as is?*/;
 	letter-spacing:.1em;
 	text-transform: uppercase;
 }
