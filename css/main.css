@@ -126,21 +126,18 @@ nav a {
 a:visited { 
 	color: #dcfd00;
 	text-decoration: none;
-	font-size: 26px;
 	font-weight: normal;	 
 }
 
 a:hover {
 	color: #ed145b;
 	text-decoration: none;
-	font-size: 26px;
 	font-weight: normal;	 
 }
 
 a:active {
 	color: #FFAA00;
 	text-decoration: none;
-	font-size: 26px;
 	font-weight: normal;
 }
 
