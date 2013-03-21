@@ -23,7 +23,7 @@ body {
 	color: #a0a0a0;
 	font-weight:normal;
 	font-style:normal;
-	width: 1280px;
+	width: 90.140845%; /*1280px/1420px (1280+70L+70R)*/;
 	margin: 0 auto;
 }
 
