@@ -87,7 +87,7 @@ header h1 {
 	line-height: 165px;
 	margin-right: .5em;
 	float: right;
-	padding-left: 110px;
+	padding-left: 1163.63636%; /*110px*/;
 	background: url(../_images/90_logo.jpg) no-repeat left center;
 	color: #fff;
 }
