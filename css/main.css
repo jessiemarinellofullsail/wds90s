@@ -137,7 +137,7 @@ a:active {
 
 .banner {
 	height: 350px;
-	padding-left: 50px;
+	padding-left: 3.90625%; /*50px/1280px*/;
 	overflow: hidden;
 	background: url(../images/bw_vhs.jpg) no-repeat;
 	margin-bottom: 4em;
@@ -147,7 +147,7 @@ a:active {
 .banner h1 {
 	font-size: 2.2em;
 	color: #ed145b;
-	padding-top: 250px;
+	padding-top: 15.625em; /*250px*/;
 	letter-spacing:.1em;
 	text-transform: uppercase;
 }
