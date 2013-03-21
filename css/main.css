@@ -23,6 +23,8 @@ body {
 	color: #a0a0a0;
 	font-weight:normal;
 	font-style:normal;
+	width: 1280px;
+	margin: 0 auto;
 }
 
 #mainNav {
@@ -47,11 +49,6 @@ body {
 }
 
 /*********************element styles*****************************************/
-
-body {
-	width: 1280px;
-	margin: 0 auto;
-}
 
 header {
 	height: 165px;
