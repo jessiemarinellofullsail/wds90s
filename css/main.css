@@ -73,7 +73,7 @@ aside {
 
 header {
 	background: #646266;
-	padding-top: 1px;
+	padding-top: 0.063em; /*1px*/;
 	overflow: hidden;
 	margin-bottom: 1.5em;
 	padding-left: 50px;
