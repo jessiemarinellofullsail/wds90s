@@ -76,7 +76,7 @@ header {
 	padding-top: 0.0630%; /*0.063em; 1px*/;
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding-left: 50px;
+	padding-left: 3.125em; /*50px*/;
 }
 
 header h1 {
