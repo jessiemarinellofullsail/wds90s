@@ -52,14 +52,14 @@ header {
 
 article {
 	float: left;
-	width: 900px;
-	padding-left: 50px;
+	width: 63.380282%; /*900px/1420px*/;
+	padding-left: 5.555556%; /*50px/900px*/;
 }
 
 aside {
 	float: right;
-	width: 280px;
-	padding-right: 50px;
+	width: 19.71831%; /*280px/1420px*/;
+	padding-right: 17.857143%; /*50px/280px*/;
 }
 
 #pageFooter {
