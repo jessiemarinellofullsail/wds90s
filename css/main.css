@@ -52,8 +52,8 @@ header {
 
 article {
 	float: left;
-	width: 70.3125%; /*900px/1280px*/;
-	padding-left: 5.555556%; /*50px*/;
+	width: 900px/1280px;
+	padding-left: 50px;
 }
 
 aside {
