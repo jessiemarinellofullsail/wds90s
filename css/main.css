@@ -154,7 +154,7 @@ a:active {
 
 .banner p {
 	width: 23.4375%; /*300px/1280px*/;
-	padding: 80px 40px 0;
+	padding: 26.666667% 13.333333% 0%; /*80px 40px 0*/;
 	height: 335px;
 	font-size: 1.2em;
 	font-weight: bold;
