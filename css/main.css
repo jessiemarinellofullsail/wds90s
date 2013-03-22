@@ -64,9 +64,11 @@ aside {
 
 #pageFooter {
 	text-indent: 2.5em;
+	background: #646266; 
 	clear:both;
 	overflow:hidden;
 	height: 150px;
+	width: 100%;
 }
 
 /*************************header*************************************************/
@@ -184,7 +186,7 @@ article h2 {
 .gallery {
 	border: 1px dashed #ed145b;
 	list-style-type: none;
-	width: 930px;
+	width: 100%; /*930px*/;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 20px;
@@ -195,9 +197,6 @@ article h2 {
 	margin-left: 30px;
 }
 
-#gallery_container {
-	border:6px solid #ed145b;
-	width: 
 
 /************************aside*****************************************************/
 
@@ -216,7 +215,6 @@ article h2 {
 /*****************************footer styles***************************************/
 
 #pageFooter {
-	background: #646266;
 	padding-top: 1.5em;
 }
 
