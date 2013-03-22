@@ -206,7 +206,7 @@ article h2 {
 	-moz-box-shadow: inset 3px 3px 3px #c1cbcc;
 	-webkit-box-shadow: inset 3px 3px 3px #c1cbcc;
 	box-shadow: inset 3px 3px 3px #c1cbcc;
-	text-indent: 26.4%; /*33px/125px*/
+	text-indent: 33px;
 }
 
 /*****************************footer styles***************************************/
