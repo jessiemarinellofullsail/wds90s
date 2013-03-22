@@ -154,7 +154,7 @@ a:active {
 
 .banner p {
 	width: 23.4375%; /*300px/1280px*/;
-	padding: 26.666667% 13.333333% 0%; /*80px 40px 0*/;
+	padding: 80px 40px 0;
 	height: 335px;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -202,7 +202,7 @@ article h2 {
 	border: 3px solid #646266;
 	border-radius: 10px;
 	padding: 1%;
-	width: 125px;
+	width: 44.642857%; /*125px/280px*/;
 	-moz-box-shadow: inset 3px 3px 3px #c1cbcc;
 	-webkit-box-shadow: inset 3px 3px 3px #c1cbcc;
 	box-shadow: inset 3px 3px 3px #c1cbcc;
