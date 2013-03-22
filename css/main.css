@@ -400,17 +400,9 @@ a:active
 	color: #FFAA00;
 	text-decoration: none;
 	font-weight: normal;
-	
-.banner 
-	height: 350px;
-	padding-left: 3.90625%; /*50px/1280px*/;
-	overflow: hidden;
-	background: url(../images/bw_vhs.jpg) no-repeat auto;
-	margin-bottom: 4em;
-	position: relative;
 
 .banner h1 
-	font-size: 2.2em;
+	font-size: 1.5em;
 	color: #ed145b;
 	padding-top: 250px;
 	letter-spacing:.1em;
@@ -418,22 +410,12 @@ a:active
 
 .banner p
 	width: auto;
-	padding: 80px 40px 0;
 	height: 335px;
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #646266;
-	position: absolute;
-	top: 0;
-	right: 0;
+	font-size: 1em;
 	
 article h2 
 	font-family: 'Sintony', sans-serif;
-	font-size: 1.8em;
-	font-weight: normal;
-	color: #a0a0a0;
-	text-shadow: 2px 2px 2px #666;
-	float: none;
+	font-size: 0.750em;
 
 .gallery 
 	border: 1px dashed #ed145b;
@@ -446,9 +428,58 @@ article h2
 .gallery li 
 	float: left;
 	margin-left: 30px;
+	
+.article
+	display:none
 
 /*Mobile Portrait Size to Mobile Landscape (devices and browsers)*/
 @media only screen and (max-width:479px) {
+body 
+	font: 100% Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	background: #fff;
+	color: #a0a0a0;
+	font-weight:normal;
+	font-style:normal;
+	width: auto;
+	margin: 0 auto;
 
+a:visited 
+	color: #dcfd00;
+	text-decoration: none;
+	font-weight: normal;	 	 
+
+a:active
+	color: #FFAA00;
+	text-decoration: none;
+	font-weight: normal;
+	
+.banner 
+	height: 350px;
+	padding-left: 3.90625%; /*50px/1280px*/;
+	overflow: hidden;
+	background: none;
+	margin-bottom: 4em;
+	position: relative;
+
+.banner h1 
+	font-size: 1.5em;
+
+.banner p
+	width: auto;
+	padding: 80px 40px 0;
+	height: 335px;
+	font-size: 1em;
+	
+article h2 
+	font-family: 'Sintony', sans-serif;
+	font-size: 0.750em;
+	float: none;
+
+.gallery 
+	display:none;
+	
+.article
+	display:none;
 }
 
