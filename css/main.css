@@ -245,12 +245,6 @@ article h2 {
 @media screen and (min-width: 768px) and (max-width: 959px) {
 
 body 
-	font: 100% Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	background: #fff;
-	color: #a0a0a0;
-	font-weight:normal;
-	font-style:normal;
 	width: 90.140845%; /*1280px/1420px (1280+70L+70R)*/;
 	margin: 0 auto;
 
@@ -320,7 +314,6 @@ a:active
 	right: 0;
 	
 article h2 
-	font-family: 'Sintony', sans-serif;
 	font-size: 1.8em;
 	font-weight: normal;
 	color: #a0a0a0;
@@ -382,24 +375,7 @@ article h2
 @media only screen and (min-width:480px) and (max-width: 767px) {
 
 body 
-	font: 100% Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	background: #fff;
-	color: #a0a0a0;
-	font-weight:normal;
-	font-style:normal;
 	width: auto;
-	margin: 0 auto;
-
-a:visited 
-	color: #dcfd00;
-	text-decoration: none;
-	font-weight: normal;	 	 
-
-a:active
-	color: #FFAA00;
-	text-decoration: none;
-	font-weight: normal;
 
 .banner h1 
 	font-size: 1.5em;
@@ -413,24 +389,12 @@ a:active
 	height: 335px;
 	font-size: 1em;
 	
-article h2 
-	font-family: 'Sintony', sans-serif;
+article h2 ;
 	font-size: 0.750em;
 
-.gallery 
-	border: 1px dashed #ed145b;
-	list-style-type: none;
-	width: auto;
-	margin: 20px auto;
-	overflow: hidden;
-	padding: 20px;
-
-.gallery li 
-	float: left;
-	margin-left: 30px;
-	
 .article
 	display:none
+}
 
 /*Mobile Portrait Size to Mobile Landscape (devices and browsers)*/
 @media only screen and (max-width:479px) {
@@ -472,7 +436,6 @@ a:active
 	font-size: 1em;
 	
 article h2 
-	font-family: 'Sintony', sans-serif;
 	font-size: 0.750em;
 	float: none;
 
