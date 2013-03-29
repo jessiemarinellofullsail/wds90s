@@ -19,12 +19,11 @@ html {
 body {
 	font: 100% Helvetica, Arial, sans-serif;
 	line-height: 1.5;
+	position: relative;
 	background: #fff;
 	color: #a0a0a0;
 	font-weight:normal;
 	font-style:normal;
-	width: 90.140845%; /*1280px/1420px (1280+70L+70R)*/;
-	margin: 0 auto;
 }
 
 #mainNav {
@@ -43,8 +42,17 @@ em {
 	font-style: italic;
 }
 
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
 
 /*********************element styles*****************************************/
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
 
 header {
 	height: 165px;
@@ -52,33 +60,31 @@ header {
 
 article {
 	float: left;
-	width: 70.3125%; /*900px/1280px*/;
-	padding-left: 3.90625%; /*50px/1280px*/;
+	width: 900px;
+	padding-left: 50px;
 }
 
 aside {
 	float: right;
-	width: 21.875%; /*280px/1280px*/;
-	padding-right: 3.90625%; /*50px/1280px*/;
+	width: 280px;
+	padding-right: 50px;
 }
 
 #pageFooter {
 	text-indent: 2.5em;
-	background: #646266; 
 	clear:both;
 	overflow:hidden;
 	height: 150px;
-	width: 100%;
 }
 
 /*************************header*************************************************/
 
 header {
 	background: #646266;
-	padding-top: 0.063em; /*1px*/;
+	padding-top: 1px;
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding-left: 3.125em; /*50px*/;
+	padding-left: 50px;
 }
 
 header h1 {
@@ -89,7 +95,7 @@ header h1 {
 	line-height: 165px;
 	margin-right: .5em;
 	float: right;
-	padding-left: 7.746479%; /*110px/1420px*/;
+	padding-left: 110px;
 	background: url(../_images/90_logo.jpg) no-repeat left center;
 	color: #fff;
 }
@@ -99,7 +105,7 @@ header h1 {
 nav {
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding-left: 3.90625%; /*50px/1280px*/;
+	padding-left: 50px;
 }
 
 nav li {
@@ -112,7 +118,6 @@ nav a {
 	display: block;
 	color: #646266;
 	border: none;
-	font-size: 1.2em;
 	text-align: center;
 	padding-right: 1.5em;
 }
@@ -126,12 +131,14 @@ a:visited {
 a:hover {
 	color: #ed145b;
 	text-decoration: none;
+	font-size: 26px;
 	font-weight: normal;	 
 }
 
 a:active {
 	color: #FFAA00;
 	text-decoration: none;
+	font-size: 26px;
 	font-weight: normal;
 }
 
@@ -139,7 +146,7 @@ a:active {
 
 .banner {
 	height: 350px;
-	padding-left: 3.90625%; /*50px/1280px*/;
+	padding-left: 50px;
 	overflow: hidden;
 	background: url(../images/bw_vhs.jpg) no-repeat;
 	margin-bottom: 4em;
@@ -149,17 +156,17 @@ a:active {
 .banner h1 {
 	font-size: 2.2em;
 	color: #ed145b;
-	padding-top: 250px /*since this is like a height should it be left as is?*/;
+	padding-top: 250px;
 	letter-spacing:.1em;
 	text-transform: uppercase;
 }
 
 .banner p {
-	width: 23.4375%; /*300px/1280px*/;
+	width: 300px;
 	padding: 80px 40px 0;
 	height: 335px;
 	font-size: 1.2em;
-	font-weight: bold;
+	font-weight: bold
 	color: #646266;
 	position: absolute;
 	top: 0;
@@ -186,7 +193,7 @@ article h2 {
 .gallery {
 	border: 1px dashed #ed145b;
 	list-style-type: none;
-	width: 100%; /*930px*/;
+	width: 930px;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 20px;
@@ -197,7 +204,6 @@ article h2 {
 	margin-left: 30px;
 }
 
-
 /************************aside*****************************************************/
 
 .button {
@@ -205,16 +211,17 @@ article h2 {
 	border: 3px solid #646266;
 	border-radius: 10px;
 	padding: 1%;
-	width: 44.642857%; /*125px/280px*/;
+	width: 125px;
 	-moz-box-shadow: inset 3px 3px 3px #c1cbcc;
 	-webkit-box-shadow: inset 3px 3px 3px #c1cbcc;
 	box-shadow: inset 3px 3px 3px #c1cbcc;
-	text-indent: 33px;
+	text-indent: 33px
 }
 
 /*****************************footer styles***************************************/
 
 #pageFooter {
+	background: #646266;
 	padding-top: 1.5em;
 }
 
@@ -226,7 +233,7 @@ article h2 {
 #pageFooter p {
 	float: left;
 	clear: right;
-	margin-left: 3.9%;
+	margin-left: 6;
 	text-align: right;
 }
 
@@ -237,212 +244,5 @@ article h2 {
 	border: none;
 	color: #646266;
 	padding-left: 95px;
-}
-
-/**************************=Media Queries*****************************************/
-
-/*Tablet Portrait Size to Standard 960 (devices and browsers)*/
-@media screen and (min-width: 768px) and (max-width: 959px) {
-
-body 
-	width: 90.140845%; /*1280px/1420px (1280+70L+70R)*/;
-	margin: 0 auto;
-
-#mainNav
-	display: none;
-
-nav ul
-	list-style: none;
-	
-nav
-	overflow: hidden;
-	margin-bottom: 1.5em;
-	padding-left: 3.90625%; /*50px/1280px*/;
-
-nav li
-	float: right;
-	margin-left: 3.2em;
-
-nav a 
-	text-transform: uppercase;
-	display: block;
-	color: #646266;
-	border: none;
-	font-size: 1.2em;
-	text-align: center;
-	padding-right: 1.5em;
-
-a:visited 
-	color: #dcfd00;
-	text-decoration: none;
-	font-weight: normal;	 
-
-a:hover
-	color: #ed145b;
-	text-decoration: none;
-	font-weight: normal;	 
-
-a:active
-	color: #FFAA00;
-	text-decoration: none;
-	font-weight: normal;
-	
-.banner 
-	height: 350px;
-	padding-left: 3.90625%; /*50px/1280px*/;
-	overflow: hidden;
-	background: url(../images/bw_vhs.jpg) no-repeat;
-	margin-bottom: 4em;
-	position: relative;
-
-.banner h1 
-	font-size: 2.2em;
-	color: #ed145b;
-	padding-top: 250px /*since this is like a height should it be left as is?*/;
-	letter-spacing:.1em;
-	text-transform: uppercase;
-
-.banner p
-	width: 23.4375%; /*300px/1280px*/;
-	padding: 80px 40px 0;
-	height: 335px;
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #646266;
-	position: absolute;
-	top: 0;
-	right: 0;
-	
-article h2 
-	font-size: 1.8em;
-	font-weight: normal;
-	color: #a0a0a0;
-	text-shadow: 2px 2px 2px #666;
-
-#columnContent 
-	-moz-column-count: 3;
-	-moz-column-gap: 25px;
-	padding: 10px;
-	clear: both;
-
-.gallery 
-	border: 1px dashed #ed145b;
-	list-style-type: none;
-	width: 100%; /*930px*/;
-	margin: 20px auto;
-	overflow: hidden;
-	padding: 20px;
-
-.gallery li 
-	float: left;
-	margin-left: 30px;
-
-.button 
-	background-color: #dcfd00;
-	border: 3px solid #646266;
-	border-radius: 10px;
-	padding: 1%;
-	width: 44.642857%; /*125px/280px*/;
-	-moz-box-shadow: inset 3px 3px 3px #c1cbcc;
-	-webkit-box-shadow: inset 3px 3px 3px #c1cbcc;
-	box-shadow: inset 3px 3px 3px #c1cbcc;
-	text-indent: 33px;
-	
-#pageFooter
-	padding-top: 1.5em;
-
-#pageFooter label 
-	display: block;
-	font-size: 1.2em;
-
-#pageFooter p 
-	float: left;
-	clear: right;
-	margin-left: 3.9%;
-	text-align: right;
-
-#pageFooter a 
-	display:block;
-	height: 100px;
-	line-height: 100px;
-	border: none;
-	color: #646266;
-	padding-left: 95px;
-
-}
-
-/*Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
-@media only screen and (min-width:480px) and (max-width: 767px) {
-
-body 
-	width: auto;
-
-.banner h1 
-	font-size: 1.5em;
-	color: #ed145b;
-	padding-top: 250px;
-	letter-spacing:.1em;
-	text-transform: uppercase;
-
-.banner p
-	width: auto;
-	height: 335px;
-	font-size: 1em;
-	
-article h2 ;
-	font-size: 0.750em;
-
-.article
-	display:none
-}
-
-/*Mobile Portrait Size to Mobile Landscape (devices and browsers)*/
-@media only screen and (max-width:479px) {
-body 
-	font: 100% Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	background: #fff;
-	color: #a0a0a0;
-	font-weight:normal;
-	font-style:normal;
-	width: auto;
-	margin: 0 auto;
-
-a:visited 
-	color: #dcfd00;
-	text-decoration: none;
-	font-weight: normal;	 	 
-
-a:active
-	color: #FFAA00;
-	text-decoration: none;
-	font-weight: normal;
-	
-.banner 
-	height: 350px;
-	padding-left: 3.90625%; /*50px/1280px*/;
-	overflow: hidden;
-	background: none;
-	margin-bottom: 4em;
-	position: relative;
-
-.banner h1 
-	font-size: 1.5em;
-
-.banner p
-	width: auto;
-	padding: 80px 40px 0;
-	height: 335px;
-	font-size: 1em;
-	
-article h2 
-	font-size: 0.750em;
-	float: none;
-
-.gallery 
-	display:none;
-	
-.article
-	display:none;
 }
 
